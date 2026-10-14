@@ -1,0 +1,23 @@
+{
+	"name": "AngaHub Community Plugins",
+	"description": "A collection of community plugins and widgets for AngaHub.",
+	"plugins": [
+		{
+			"id": "com.angahub.windy-radar",
+			"name": "Windy Radar",
+			"description": "Home-screen weather radar centered on a US ZIP code using Windy.com.",
+			"kind": "widget",
+			"category": "Weather",
+			"owner": "angahub-community",
+			"versions": [
+				{
+					"version": "1.0.0",
+					"sourceUrl": "https://raw.githubusercontent.com/Angablade/AngahubRepo/refs/heads/main/packages/angahub-windy-radar-1.0.0.zip",
+					"checksum": "",
+					"changelog": "Initial release: ZIP-code lookup and embedded Windy radar.",
+					"targetAbi": "1"
+				}
+			]
+		}
+	]
+}
